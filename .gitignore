@@ -1,0 +1,13 @@
+**/.DS_Store
+**/__pycache__
+__pycache__
+**/.ipynb_checkpoints/*
+env
+my_config.json
+my_config.yaml
+notebooks/data/*
+!notebooks/data/.gitkeep
+notebooks/resources/*
+!notebooks/resources/.gitkeep
+software_kb.egg-info/
+*.log
