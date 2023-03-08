@@ -1,7 +1,8 @@
 # Software mentions extraction pipeline notebooks
 
-Python notebooks illustrating software mention extraction pipelines.
+Notebooks illustrating software mention extraction pipelines.
 
+<!---
 ## Install required packages
 
 First setup first a virtual environment to avoid falling into one of these gloomy python dependency marshlands:
@@ -22,14 +23,21 @@ Finally install the project in editable state
 ```console
 python3 -m pip install -e .
 ```
+-->
 
-## Start a notebook
+## Start a Python notebook
+
+Make sure jupyter notebook is installed:
+
+```console
+python3 -m pip install jupyter
+```
 
 Launch the specific notebook:
 
 * basic pipeline: download articles with their DOI specified in a file and extract their software mentions
 
-```
+```console
 jupyter notebook notebooks/basic_pipeline.ipynb
 ```
 
